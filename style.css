@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+    display: flex;
+    word-spacing: 30px;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-size: larger;
+    padding: 20px;
+}
+
+.navbar a {
+    display: inline-flex;
+    gap: 50px;
+    color: #fff;
+    text-decoration: none;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar a:hover {
+    color: #ffcc00;
+}
+
+.brand {
+    text-align: center;
+    padding: 80px;
+    background: linear-gradient(to right, #ffcc00, #ffa500);
+    color: #111;
+}
+
+.brand h1 {
+    font-size: 40px;
+    margin-bottom: 1px;
+}
+
+.brand p {
+    margin-bottom: 30px;
+    font-size: 15px;
+}
+
+.btn-primary {
+    background: #111;
+    color: #fff;
+    padding: 15px;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+.btn-primary:hover {
+    background: #333;
+}
+.menu {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 10px;
+    margin: 50px auto;
+    font-family: 'Poppins', sans-serif;
+}
+.menu-items {
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    margin-bottom: 80px;
+
+}
+.menu-item {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    width: 200px;
+    padding-bottom: 25px;
+}
+.btn-price {
+    background: #ffcc00;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.btn-price:hover {
+    background: #ffa500;
+}
+.menu-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.menu-item h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.menu-item p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.contact-form{
+    background-color: #f2f2f2;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 0 auto 30px auto;
+}
+.contact-form__input, .contact-form__textarea, .contact-form__input__submit
+{
+    margin-top: 10px;
+}
+
+.contact-form__input, .contact-form__textarea{
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+.contact-form__submit{
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
